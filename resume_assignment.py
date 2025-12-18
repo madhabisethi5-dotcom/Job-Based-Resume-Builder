@@ -13,7 +13,7 @@ if job_name:
             contents=f"""Your erpot in resume build profationally,
         Create a professional resume for the following candidate:
         Name: {name},Email:{email},Phone:{Phone_number},Target Role: {job_title},Experience Level: {experience_level}
-        Skills: {skills},Highest Qualification: {Highest_Qualification}
+        Skills: {skills},Highest Qualification: {Highest_Qualification},job description: {job_description}
         Generate:
         1. Dont add any extra line.
         2. 3-5 ATS-profationally do not icludede symbols.
@@ -52,6 +52,7 @@ if st.button("✨ Generate Resume using AI"):
 
    
     
+
 
 
 
